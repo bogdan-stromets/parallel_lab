@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>C:\Users\String.Empty\Documents\GitHub\parallel_lab\Ada\lab1.gpr</vfs_file>
+  <Project >
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\String.Empty\Documents\GitHub\parallel_lab\Ada\lab1.gpr</vfs_project>
       <vfs_file>C:\Users\String.Empty\Documents\GitHub\parallel_lab\Ada\src\main.adb</vfs_file>
