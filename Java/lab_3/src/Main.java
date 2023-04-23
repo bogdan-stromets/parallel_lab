@@ -1,6 +1,4 @@
 import java.util.ArrayDeque;
-import java.util.Collection;
-import java.util.Iterator;
 
 public class Main {
     private ArrayDeque<Integer> item_queue = new ArrayDeque<>();
@@ -8,8 +6,8 @@ public class Main {
         Main main = new Main();
         int storageSize = 3;
         int itemNumbers = 10;
-        int consumerNumbers = 5;
-        int producerNumbers = 3;
+        int consumerNumbers = 4;
+        int producerNumbers = 4;
 
         main.starter(storageSize, itemNumbers,consumerNumbers,producerNumbers);
     }
