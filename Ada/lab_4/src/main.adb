@@ -20,7 +20,7 @@ procedure Main is
       Id_Right_Fork := Id rem 5 + 1;
 
 
-      for I in 1..10000 loop
+      for I in 1..10 loop
 
          Put_Line("Phylosopher " & Id'Img & " thinking " & I'Img & " time");
          permits.Seize;
@@ -43,8 +43,7 @@ procedure Main is
 
    Phylosophers : array (1..5) of Phylosopher;
 
-Begin
- --  permits.Take(1);
+Begins
    for I in Phylosophers'Range loop
       Phylosophers(I).Start(I);
    end loop;
